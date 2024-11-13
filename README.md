@@ -1,4 +1,4 @@
-# PassGen
+# CredGen
 The purpose of this project is to build a standard Node.js module password generator with customizable options.
 
 ## Installation
