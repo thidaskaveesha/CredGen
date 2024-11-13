@@ -1,11 +1,11 @@
 {
-  "name": "genpass",
+  "name": "credgen",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["GenPass", "random", "password", "generator"],
+  "keywords": ["credgen", "random", "password", "generator"],
   "author": "Thidas Senavirathna",
   "license": "ISC",
   "description": ""
