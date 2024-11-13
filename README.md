@@ -1,14 +1,14 @@
-# CredGen
+# CredsGen
 The purpose of this project is to build a standard Node.js module password generator with customizable options.
 
 ## Installation
 ```bash
-npm install credgen
+npm install credsgen
 ```
 
 ## Usage
 ```bash
-const generatePassword = require('credgen');
+const generatePassword = require('credsgen');
 
 // Generate a random password of default length 12
 console.log(generatePassword()); 

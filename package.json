@@ -1,12 +1,12 @@
 {
-  "name": "credgen",
+  "name": "credsgen",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["credgen", "random", "password", "generator"],
+  "keywords": ["credsgen", "random", "password", "generator"],
   "author": "Thidas Senavirathna",
   "license": "ISC",
-  "description": ""
+  "description": "The purpose of this Node.js module password generator with customizable options."
 }
