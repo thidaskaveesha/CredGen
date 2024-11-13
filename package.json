@@ -1,12 +1,17 @@
 {
   "name": "credsgen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "exports": {
+    "require": "./index.cjs",
+    "import": "./index.js"
+  },
   "keywords": ["credsgen", "random", "password", "generator"],
   "author": "Thidas Senavirathna",
   "license": "ISC",
+  "type": "module",
   "description": "The purpose of this Node.js module password generator with customizable options."
 }
