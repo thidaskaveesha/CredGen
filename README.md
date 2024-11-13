@@ -8,13 +8,13 @@ npm install credsgen
 
 ## Usage
 ```bash
-const generatePassword = require('credsgen');
+import credGen from 'credsgen'
 
 // Generate a random password of default length 12
-console.log(generatePassword()); 
+console.log(credGen()); 
 
 // Generate a 16-character password with custom options
-console.log(generatePassword(16, { uppercase: true, numbers: true }));
+console.log(credGen(16, { uppercase: true, numbers: true }));
 ```
 
 ## Options

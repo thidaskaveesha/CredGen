@@ -1,4 +1,4 @@
-function generatePassword(length = 12, options = {}) {
+function credGen(length = 12, options = {}) {
   const defaultOptions = {
     uppercase: true,
     lowercase: true,
@@ -38,5 +38,5 @@ function generatePassword(length = 12, options = {}) {
 }
 
 // Export the function
-module.exports = generatePassword;
+export default credGen;
   
