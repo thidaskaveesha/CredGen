@@ -3,12 +3,12 @@ The purpose of this project is to build a standard Node.js module password gener
 
 ## Installation
 ```bash
-npm install random-password-generator
+npm install credgen
 ```
 
 ## Usage
 ```bash
-const generatePassword = require('passGen');
+const generatePassword = require('credgen');
 
 // Generate a random password of default length 12
 console.log(generatePassword()); 
